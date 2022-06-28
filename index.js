@@ -1,5 +1,6 @@
 
 function Answer(){
+    var x = "😭";
     var val1 = document.getElementById("Subject1").value;
 
     val1 = parseInt(val1);
@@ -31,36 +32,41 @@ function Answer(){
         console.log(percentage);
     
         if(percentage>=85){
-            document.querySelector("h2").innerHTML="A+ Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="A+ Grade"+" and Your Percenage is: " +percentage+"% 🎉";
 
         }
     
         else if(percentage>=84){
-            document.querySelector("h2").innerHTML="A Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="A Grade"+" and Your Percenage is: " +percentage+"% 🎉";
         }
     
         else if(percentage>=80){
-            document.querySelector("h2").innerHTML="B+ Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="B+ Grade"+" and Your Percenage is: " +percentage+"% 😊";
         }
     
         else if(percentage>=75){
-            document.querySelector("h2").innerHTML="B Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="B Grade"+" and Your Percenage is: " +percentage+"% 😊";
         }
     
         else if(percentage>=70){
-            document.querySelector("h2").innerHTML="C+ Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="C+ Grade"+" and Your Percenage is: " +percentage+"% 😊";
         }
     
         else if(percentage>=69){
-            document.querySelector("h2").innerHTML="C Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="C Grade"+" and Your Percenage is: " +percentage+"% 😊";
         }
     
         else if(percentage>=65){
-            document.querySelector("h2").innerHTML="D+ Grade"+" and Your Percenage is: " +percentage;
+            document.querySelector("h2").innerHTML="D+ Grade"+" and Your Percenage is: " +percentage+"% 😊";
+        }
+        else if(percentage>=51){
+            document.querySelector("h2").innerHTML="D Grade"+" and Your Percenage is: " +percentage+"% 😊";
         }
     
-        else{
-            document.querySelector("h2").innerHTML="Fail";
+        else if(percentage<=50){
+            document.querySelector("h2").innerHTML="Fail 😭";
+
+            
         }
     }
 }

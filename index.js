@@ -57,10 +57,10 @@ function Answer(){
         }
     
         else if(percentage>=65){
-            document.querySelector("h2").innerHTML="D+ Grade"+" and Your Percenage is: " +percentage+"% 😊";
+            document.querySelector("h2").innerHTML="D+ Grade"+" and Your Percenage is: " +percentage+"% 😅";
         }
         else if(percentage>=51){
-            document.querySelector("h2").innerHTML="D Grade"+" and Your Percenage is: " +percentage+"% 😊";
+            document.querySelector("h2").innerHTML="D Grade"+" and Your Percenage is: " +percentage+"% 😅";
         }
     
         else if(percentage<=50){
